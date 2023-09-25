@@ -8,7 +8,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls="main-navbar"/>
           <Navbar.Collapse id="main-navbar">
-            <Nav variant="underline" className="text-light">
+            <Nav variant="underline" defaultActiveKey={"/"} className="text-light">
               <Nav.Link as={Link} href="/" >Breaking</Nav.Link>
               <Nav.Link as={Link} href="/search" >Search</Nav.Link>
               <NavDropdown title="Categories" id="categories">
